@@ -66,11 +66,17 @@ body {
     line-height: 38px;
 }
 
-.botton {
+.botton_pinc {
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
     background-color: #f16d7f;
+    text-align: center;
+
+}
+
+.botton_up {
+
     letter-spacing: 0.38px;
     line-height: 38px;
     height: 38px;
@@ -78,7 +84,16 @@ body {
     padding-right: 19px;
 }
 
-
+.botton_under {
+    letter-spacing: 0.38px;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 48px;
+    width: 145px;
+    height: 48px;
+  
+    
+}
 
 .header-cart {
     margin-right: 26px;
@@ -314,4 +329,14 @@ text-decoration: none;
     justify-content: space-between;
     align-content: space-between;
 }
+
+
+.under_products {
+    height: 48px;
+    padding-top: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
