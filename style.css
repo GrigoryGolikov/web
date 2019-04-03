@@ -672,6 +672,7 @@ body {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
+    line-height: 23px
 }
 
 .offer-h2 {
@@ -682,14 +683,39 @@ body {
 
 }
 
+.offer-h2-product {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-top: 36px;
+    padding-bottom: 10px
+        
+
+}
+.offer-h2-product:hover {
+    color: #ef5b70;
+
+        
+
+}
+
 .offer-link {
     /*background-color: #f16d7f;*/
+    height: 40px;
 }
 
 .offer-right-list {
     height: 102px;
     width: 304px;
     display: flex;
+
+}
+
+.offer-list {
+    height: 102px;
+    padding-bottom: 45px;
+   
 
 }
 
@@ -780,8 +806,8 @@ body {
 
 .services {
     background-color: #222224;
-    height: 231px;
-    padding-top: 110px;
+    height: 252px;
+    padding-top: 89px;
 }
 
 .services-flex {
@@ -1194,4 +1220,10 @@ letter-spacing: 0.35px;
 
 .menu--list:hover .drop {
     display: flex;
+}
+
+
+
+.offer-img-box {
+    height: 40px;
 }
