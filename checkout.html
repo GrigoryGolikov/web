@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ShoppingCart</title>
+    <title>Checkout</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
+
     <header class="header">
         <div class="container header-flex">
             <div class="header__left">
-                <a class="logo" href="index.html"><img  class="logo_img"  src="img/logo.png" alt="logo">
+                <a class="logo" href="index.html"><img  class="logo_img" src="img/logo.png" alt="logo">
                     <p class="brand_text">BRAN<span class="d_pink">D</span></p>
                 </a>
                 <form class="header_form" ; action="#">
@@ -70,8 +71,7 @@
                 </div>
             </div>
         </div>
-    </header>
-
+    </header> 
     <nav>
         <ul class="menu">
             <li class="menu--list"><a href="index.html" class="menu--link">Home</a></li>
@@ -152,137 +152,72 @@
             <div class="promo-produkts-right"><a href="index.html" class="promo-produkts-right">Home</a> / <a href="#" class="promo-produkts-right">Men</a> / <span class="promo-produkts-right-pink">New Arrivals</span> </div>
         </div>
     </div>
-    <div class="container products-cart">
-        <div class="products-cart-head">
-            <div class="products-cart-left">
-                <div class="products-cart-h2">Product Details</div>
-            </div>
-            <div class="products-cart-right">
-                <div class="products-cart-h2 products-cart-width">unite Price</div>
-                <div class="products-cart-h2 products-cart-width">Quantity</div>
-                <div class="products-cart-h2 products-cart-width">shipping</div>
-                <div class="products-cart-h2 products-cart-width">Subtotal</div>
-                <div class="products-cart-h2 products-cart-width">ACTION</div>
-            </div>
-        </div>
-        <section class="products-cart-box">
-            <div class="products-cart-left">
-                <div class="products-cart-div-img">
-                    <a href="#"> <img class="products-cart_img" src="img/ProductMin1.jpg"></a>
-                </div>
-                <div class="products-cart-details">
-                    <a href="#">
-                        <h3 class="products-cart-h3">Mango People T-shirt</h3>
-                    </a>
-                    <p class="products-cart-ph">Color: <span class="products-cart-p">Red</span></p>
-                    <p class="products-cart-ph">Size: <span class="products-cart-p">Xll</span></p>
-                </div>
-            </div>
-            <div class="products-cart-right">
-                <div class="products-cart-price products-cart-width">$150</div>
-                <div class="products-cart-width">
-                    <input class="products-cart-quantity-border" type="number" min="1" max="100" value="1">
-                </div>
-                <div class="products-cart-shipping products-cart-width">FREE</div>
-                <div class="products-cart-subtotal products-cart-width">$300</div>
-                <a href="#" class="products-cart-action products-cart-width"><i class="fas fa-times-circle"></i></a>
-            </div>
-        </section>
-
-        <section class="products-cart-box">
-            <div class="products-cart-left">
-                <div class="products-cart-div-img">
-                    <a href="#"> <img class="products-cart_img" src="img/ProductMin2.jpg"></a>
-                </div>
-                <div class="products-cart-details">
-                    <a href="#">
-                        <h3 class="products-cart-h3">Mango People T-shirt</h3>
-                    </a>
-                    <p class="products-cart-ph">Color: <span class="products-cart-p">Red</span></p>
-                    <p class="products-cart-ph">Size: <span class="products-cart-p">Xll</span></p>
-                </div>
-            </div>
-            <div class="products-cart-right">
-                <div class="products-cart-price products-cart-width">$150</div>
-                <div class="products-cart-width">
-                    <input class="products-cart-quantity-border" type="number" min="1" max="100" value="1">
-                </div>
-                <div class="products-cart-shipping products-cart-width">FREE</div>
-                <div class="products-cart-subtotal products-cart-width">$300</div>
-                <a href="#" class="products-cart-action products-cart-width"><i class="fas fa-times-circle"></i></a>
-            </div>
-        </section>
-
-        <section class="products-cart-box">
-            <div class="products-cart-left">
-                <div class="products-cart-div-img">
-                    <a href="#"> <img class="products-cart_img" src="img/ProductMin3.jpg"></a>
-                </div>
-                <div class="products-cart-details">
-                    <a href="#">
-                        <h3 class="products-cart-h3">Mango People T-shirt</h3>
-                    </a>
-                    <p class="products-cart-ph">Color: <span class="products-cart-p">Red</span></p>
-                    <p class="products-cart-ph">Size: <span class="products-cart-p">Xll</span></p>
-                </div>
-            </div>
-            <div class="products-cart-right">
-                <div class="products-cart-price products-cart-width">$150</div>
-                <div class="products-cart-width">
-                    <input class="products-cart-quantity-border" type="number" min="1" max="100" value="1">
-                </div>
-                <div class="products-cart-shipping products-cart-width">FREE</div>
-                <div class="products-cart-subtotal products-cart-width">$300</div>
-                <a href="#" class="products-cart-action products-cart-width"><i class="fas fa-times-circle"></i></a>
-            </div>
-        </section>
-    </div>
-    <div class="container under_products-cart">
-        <div class="under_products-cart-button">CLEAR SHOPPING CART</div>
-        <div class="under_products-cart-button">CONTINUE sHOPPING</div>
-    </div>
-    <div class="checkout">
-
-        <div class="container ">
-            <div class="checkout-top checkout-flex">
-                <div class="adress">
-                    <h3 class="checkout-h3">Shipping Adress</h3>
-                    <div class="checkout-select-box">
-                        <select id="gender" class="checkout-select">
-                            <option value="02">USA</option>
-                            <option value="03">Russia</option>
-                            <option value="04">Bangladesh</option>
-                            <option value="05">Italy</option>
-                        </select>
-                    </div>
-                    <input type="text" class="checkout-input" placeholder="State">
-                    <input type="text" class="checkout-input" placeholder="Postcode / Zip">
-
-
-
-                </div>
-                <div class="coupon">
-                    <h3 class="checkout-h3">coupon discount</h3>
-                    <p class="chekout-p">Enter your coupon code if you have one</p>
-                    <input type="text" class="checkout-input" placeholder="State">
-                    <div class="checkout-button">Apply coupon</div>
-                </div>
-                <div class="sending">
-                    <div class="sending-box">
-                        <div class="total-box">
-                            <p class="sending-subtotal-text">Sub total <span class="sending-subtotal-price">$900</span></p>
-                            <p class="sending-grand-text">GRAND TOTAL <span class="sending-grand-price">$900</span></p>
+    <div class="check">
+        <div class="container">
+            <div class="check__stage">
+                <h2 class="headline2">01. Shipping Adress</h2>
+                <div class="check_box">
+                    <div class="check_box_left">
+                        <h3 class="headline3 check__h3">Check as a guest or register</h3>
+                        <p class="check__text">Register with us for future convenience</p>
+                        <div class="check__radio__box">
+                            <p class="check__radio"><input name="reg_guest" type="radio" value="guest" checked>checkout as guest</p>
+                            <p class="check__radio"><input name="reg_guest" type="radio" value="reg"> register</p>
                         </div>
-                        <div class="sending-button">proceed to checkout</div>
+                        <h3 class="headline3 check__h3">register and save time!</h3><br>
+                        <p class="check__text">Register with us for future convenience</p>
+                        <p class="check__comment">&#187; Fast and easy checkout</p>
+                        <p class="check__comment">&#187; Easy access to your order history and status</p>
+                        <div class="check__box_button">
+                            <div class="check__button">Continue</div>
+                        </div>
+                    </div>
+                    <div class="check_box_right">
+                        <h3 class="headline3 check__h3">Already registed? <span class="headline3_red">*</span></h3>
+                        <p class="check__text">Please log in below</p>
+                        <h3 class="headline3 check__h3">EMAIL ADDRESS <span class="headline3_red">*</span></h3>
+                        <form class="check__form">
+                            <input id="email" type="email" class="check-input">
+                        </form>
+                        <h3 class="headline3">PASSWORD</h3>
+                        <form class="check__form">
+                            <input type="password" class="check-input">
+                        </form>
+                        <p class="text_red">* Required Fileds</p>
+                        <div class="check__box_button">
+                            <div class="check__button">Log in</div>
+                            <a class="check__pass" href="#">Forgot Password ?</a>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="check__stage">
+                <h2 class="headline2">02. BILLING INFORMATION</h2>
+                <div class="check_box2">
+                </div>
+            </div>
+            <div class="check__stage">
+                <h2 class="headline2">03. SHIPPING INFORMATION</h2>
+                <div class="check_box2">
+                </div>
+            </div>
+            <div class="check__stage">
+                <h2 class="headline2">04. SHIPPING METHOD</h2>
+                <div class="check_box2">
+                </div>
+            </div>
+            <div class="check__stage">
+                <h2 class="headline2">05. PAYMENT METHOD</h2>
+                <div class="check_box2">
+                </div>
+            </div>
+            <div class="check__stage">
+                <h2 class="headline2">06. ORDER REVIEW</h2>
+                <div class="check_box2">
+                </div>
+            </div>
 
-            </div>
-            <div class="checkout-Up">
-                <div class="checkout-button">get a quote</div>
-            </div>
         </div>
-
     </div>
     <div class="subscribe-box">
         <div class="subscribe">
@@ -323,7 +258,7 @@
     <footer class="under">
         <div class="container under-flex">
             <div class="under-left">
-                <a class="logo " href="#"><img  class="logo_img"  src="img/logo.png" alt="logo">
+                <a class="logo " href="#"><img   class="logo_img" src="img/logo.png" alt="logo">
                     <p class="brand_text">BRAN<span class="d_pink">D</span></p>
                 </a>
                 <div class="under-text-box">
