@@ -892,7 +892,7 @@ body {
     width: 848px;
 }
 
-.top-filter {
+.filter_top {
     width: 848px;
     display: flex;
     justify-content: space-between;
@@ -1014,7 +1014,7 @@ body {
 }
 
 
-.box-sidebar {
+.sidebar__box {
     margin-bottom: 18px;
 }
 
@@ -1032,7 +1032,7 @@ body {
 
 }
 
-.tranding-text {
+.trending-text {
     font-size: 14px;
     font-weight: 400;
     color: #dfdfdf;
@@ -1553,7 +1553,7 @@ body {
     margin-bottom: 79px;
 }
 
-.chekout-p {
+.checkout-p {
     margin-top: 28px;
 }
 
