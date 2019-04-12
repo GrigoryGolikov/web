@@ -35,7 +35,7 @@ body {
     align-items: center;
 }
 
-.header_right {
+.header__right {
     display: flex;
     align-items: center;
 }
@@ -51,6 +51,8 @@ body {
     text-transform: uppercase;
 
 }
+
+
 
 .header_form {
     height: 38px;
@@ -73,30 +75,34 @@ body {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
+    transition: all 0.3s;
 }
 
 .browse:hover {
     background-color: #cdcdcc;
     /*color: #e8e8e8;*/
     border: 1px solid #cdcdcc;
+    cursor: pointer;
 }
 
-.botton_pinc {
+.button_pinc {
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
     background-color: #f16d7f;
     text-align: center;
     border: 1px solid #f16d7f;
+    transition: all 0.3s;
 
 }
 
-.botton_pinc:hover {
+.button_pinc:hover {
     color: #f16d7f;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
-.botton_up {
+.button_up {
 
     letter-spacing: 0.38px;
     line-height: 38px;
@@ -107,7 +113,7 @@ body {
 
 
 
-.botton_under {
+.button_under {
     letter-spacing: 0.38px;
     padding-left: 24px;
     padding-right: 24px;
@@ -228,13 +234,14 @@ body {
 
     position: relative;
     right: 36px;
-
+    transition: all 0.3s;
 }
 
 .header-left-submit:hover {
     color: #ffffff;
     background-color: #cdcdcc;
     border: 1px solid #e6e6e6;
+    cursor: pointer;
 }
 
 .categories_1 {
@@ -340,6 +347,7 @@ body {
     text-decoration: none;
     position: relative;
     margin-bottom: 39px;
+    transition: all 0.3s;
 
 }
 
@@ -352,9 +360,15 @@ body {
     filter: brightness(40%)
 }
 
+.product_img {
+    transition: all 0.3s;
+
+}
+
 .products_block:hover {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
+    transform: scale(1.05);
 
 }
 
@@ -522,12 +536,14 @@ body {
     letter-spacing: 0.35px;
     position: relative;
     right: 90px;
+    transition: all 0.3s;
 }
 
 .quote-submit:hover {
     background-color: #ffffff;
     color: #f16d7f;
     border: 1px solid #f16d7f;
+    cursor: pointer;
 }
 
 .quote-input {
@@ -640,6 +656,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.4px;
+    transition: all 0.3s;
 }
 
 .under-menu--link:hover {
@@ -690,7 +707,8 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     padding-top: 36px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    transition: all 0.3s;
 }
 
 .offer-h2-product:hover {
@@ -752,6 +770,7 @@ body {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    transition: all 0.3s;
 
 }
 
@@ -787,7 +806,7 @@ body {
 
     letter-spacing: 0.4px;
     text-align: center;
-
+    transition: all 0.3s;
 }
 
 .network:hover {
@@ -796,6 +815,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.4px;
+    cursor: pointer;
 }
 
 
@@ -841,6 +861,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
 .promo-produkts-right:hover {
@@ -871,7 +892,7 @@ body {
     width: 848px;
 }
 
-.top-filter {
+.filter_top {
     width: 848px;
     display: flex;
     justify-content: space-between;
@@ -895,6 +916,7 @@ body {
 
     background-color: #ffffff;
     padding-right: 9px;
+    transition: all 0.3s;
 }
 
 .label-size:hover {
@@ -939,6 +961,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
 .hide + label:hover {
@@ -972,6 +995,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     list-style-type: none;
+    transition: all 0.3s;
 }
 
 .sidebar-link:hover {
@@ -990,7 +1014,7 @@ body {
 }
 
 
-.box-sidebar {
+.sidebar__box {
     margin-bottom: 18px;
 }
 
@@ -998,6 +1022,7 @@ body {
     color: #6f6e6e;
     font-size: 14px;
     font-weight: 400;
+    transition: all 0.3s;
 
 }
 
@@ -1007,7 +1032,7 @@ body {
 
 }
 
-.tranding-text {
+.trending-text {
     font-size: 14px;
     font-weight: 400;
     color: #dfdfdf;
@@ -1080,7 +1105,7 @@ body {
 
 }
 
-.botton_white {
+.button_white {
     color: #ef5b70;
     font-size: 16px;
     font-weight: bold;
@@ -1091,12 +1116,14 @@ body {
     padding-right: 46px;
     line-height: 42px;
     height: 42px;
+    transition: all 0.3s;
 }
 
-.botton_white:hover {
+.button_white:hover {
     color: #ffffff;
     border: 1px solid #ef5b70;
     background-color: #ef5b70;
+    cursor: pointer;
 
 }
 
@@ -1130,6 +1157,7 @@ body {
     color: #c4c4c4;
     font-size: 16px;
     font-weight: bold;
+    transition: all 0.3s;
 }
 
 .nav-number:hover {
@@ -1154,10 +1182,13 @@ body {
     background-color: #ffffff;
     padding: 12px 20px 20px;
     border: 1px solid #ebebeb;
+    
     display: none;
+    opacity: 0;
     position: absolute;
     top: 48px;
     left: -5px;
+    transition: all 3s;
 
 }
 
@@ -1183,6 +1214,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.35px;
     line-height: 28px;
+    transition: all 0.3s;
 }
 
 .drop-linc:hover {
@@ -1194,7 +1226,6 @@ body {
 .drop-h3 {
     border-bottom: 1px solid #e8e8e8;
     color: #232323;
-    acolor: #232323;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1223,6 +1254,8 @@ body {
 
 .menu--list:hover .drop {
     display: flex;
+    opacity: 1;
+    transition: all 3s;
 }
 
 
@@ -1272,6 +1305,7 @@ body {
     text-transform: uppercase;
     padding-bottom: 38px;
     padding-top: 13px;
+    transition: all 0.3s;
 }
 
 .products-cart-h3:hover {
@@ -1320,6 +1354,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
 .products-cart-action:hover {
@@ -1357,11 +1392,14 @@ body {
 
 }
 
-
+.products-cart_img {
+    transition: all 0.3s;
+}
 
 .products-cart_img:hover {
 
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    transform: scale(1.05);
 
 }
 
@@ -1371,7 +1409,7 @@ body {
     padding-bottom: 63px;
 }
 
-.under_products-cart-botton {
+.under_products-cart-button {
     padding-left: 38px;
     padding-right: 38px;
     padding-top: 19px;
@@ -1382,13 +1420,14 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
-.under_products-cart-botton:hover {
+.under_products-cart-button:hover {
 
     background-color: #4a4a4a;
     color: #ffffff;
-
+    cursor: pointer;
 }
 
 .checkout-flex {
@@ -1445,7 +1484,7 @@ body {
     padding-right: 17px;
 }
 
-.checkout-botton {
+.checkout-button {
     padding-left: px;
     padding-right: 14px;
     padding-top: 12px;
@@ -1459,11 +1498,13 @@ body {
     text-align: center;
     margin-top: 24px;
     max-width: 118px;
+    transition: all 0.3s;
 }
 
-.checkout-botton:hover {
+.checkout-button:hover {
     background-color: #4a4a4a;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .sending {
@@ -1478,7 +1519,7 @@ body {
     justify-content: space-between;
 }
 
-.sending-botton {
+.sending-button {
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -1488,21 +1529,14 @@ body {
     border: 1px solid #f16d7f;
     padding: 19px 42px 19px 42px;
     margin-bottom: 42px;
+    transition: all 0.3s;
 
 }
 
-.sending-botton:hover {
+.sending-button:hover {
     color: #f16d7f;
     background-color: #ffffff;
-
-
-}
-
-sending-botton:hover {
-    color: #f16d7f;
-
-    background-color: #ffffff;
-
+    cursor: pointer;
 }
 
 .coupon {
@@ -1519,7 +1553,7 @@ sending-botton:hover {
     margin-bottom: 79px;
 }
 
-.chekout-p {
+.checkout-p {
     margin-top: 28px;
 }
 
@@ -1654,6 +1688,7 @@ sending-botton:hover {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: all 0.3s;
 }
 
 .drop-cart-action:hover {
@@ -1685,7 +1720,7 @@ sending-botton:hover {
     padding-bottom: 32px;
 }
 
-.drop-cart-botton {
+.drop-cart-button {
     margin-top: 11px;
     border: 1px solid #eaeaea;
     background-color: #ffffff;
@@ -1696,20 +1731,20 @@ sending-botton:hover {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
-
+transition: all 0.3s;
 
 }
 
-.drop-cart-botton:hover {
+.drop-cart-button:hover {
 
     border: 1px solid #4a4a4a;
     background-color: #4a4a4a;
     color: #ffffff;
-
+    cursor: pointer;
 
 }
 
-.drop-cart-botton-pinc {
+.drop-cart-button-pinc {
     border: 1px solid #f16d7f;
     background-color: #ffffff;
     color: #f16d7f;
@@ -1719,19 +1754,214 @@ sending-botton:hover {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
+    transition: all 0.3s;
 
 }
 
-.drop-cart-botton-pinc:hover {
+.drop-cart-button-pinc:hover {
 
     background-color: #f16d7f;
     color: #ffffff;
+    cursor: pointer;
 
+}
+.drop-cart-div-img: {
+transition: all 0.3s;
 
 }
 
+
+.drop-cart-div-img {
+
+    transition: 0.3s;
+
+}
 .drop-cart-div-img:hover {
 
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+transform: scale(1.05);
+    
+}
 
+
+.headline2 {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.check_box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+
+}
+
+.check__button {
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 16px 42px 16px 42px;
+    display: inline-block;
+    transition: all 0.3s;
+
+}
+
+.check__button:hover {
+    color: #ffffff;
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+
+.headline3 {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+.check__radio {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 13px;
+
+}
+
+
+
+
+
+
+.check__text {
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.check-input {
+
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    height: 45px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.check_box_right {
+    padding-right: 166px;
+    padding-left: 291px;
+
+    flex-grow: 1;
+    flex: 1 1 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.check__box_button {
+    display: flex;
+    align-items: baseline;
+    margin-top: 38px;
+}
+
+.check_box_left {
+    flex-grow: 1;
+    flex: 1 1 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.check__comment {
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+
+.check__radio__box {
+    padding-bottom: 33px;
+}
+
+.check__stage {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.check__stage:last-of-type {
+    margin-bottom: 77px;
+}
+
+.check_box2 {
+    display: none;
+    justify-content: space-between;
+    margin-left: 34px;
+    padding-top: 33px;
+
+}
+
+.check__pass {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 32px;
+    transition: all 0.3s;
+}
+
+.check__pass:hover {
+    color: #f16d7f;
+}
+
+.text_red {
+    color: #ff0d0d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.headline3_red {
+    color: #ff0d0d;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.check__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_img {
+    transition: all 1s;
+}
+.logo_img:hover {
+    transform: rotate(360deg)
+  
 }

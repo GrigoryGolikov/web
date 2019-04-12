@@ -3,19 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Document</title>
+    <title>Products</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_sass.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-
-
     <header class="header">
         <div class="container header-flex">
             <div class="header__left">
-                <a class="logo" href="index.html"><img src="img/logo.png" alt="logo">
+                <a class="logo" href="index.html"><img  class="logo_img"  src="img/logo.png" alt="logo">
                     <p class="brand_text">BRAN<span class="d_pink">D</span></p>
                 </a>
                 <form class="header_form" ; action="#">
@@ -25,7 +23,7 @@
                 </form>
             </div>
 
-            <div class="header_right">
+            <div class="header__right">
                 <div class="cart-linc-box">
                     <div class="drop-cart">
                         <div class="drop-cart-product">
@@ -58,21 +56,22 @@
                             <p class="drop-cart-total">TOTAL</p>
                             <p class="drop-cart-total">$500.00</p>
                         </div>
-                        <a href="ShoppingCart.html">
-                            <div class="drop-cart-botton-pinc">Checkout</div>
+                        <a href="checkout.html">
+                            <div class="drop-cart-button-pinc">Checkout</div>
                         </a>
                         <a href="ShoppingCart.html">
-                            <div class="drop-cart-botton">go to cart</div>
+                            <div class="drop-cart-button">go to cart</div>
                         </a>
                     </div>
                     <a href="ShoppingCart.html" class="cart-linc"><img class="header-cart" src="img/cart.svg" ; alt="cart"> </a>
                 </div>
-                <div class="botton_pinc botton_up"> My Account <i class="fas fa-caret-down"></i>
+                <div class="button_pinc button_up"> My Account <i class="fas fa-caret-down"></i>
 
                 </div>
             </div>
         </div>
     </header>
+
     <nav>
         <ul class="menu">
             <li class="menu--list"><a href="index.html" class="menu--link">Home</a></li>
@@ -160,7 +159,7 @@
             <label for="hd-1" class="hide-sidebar">
                 <p>Category</p><i class="fas fa-caret-down"></i>
             </label>
-            <div class="box-sidebar">
+            <div class="sidebar__box">
                 <li class="sidebar-li">
                     <a href="#" class="sidebar-link">Accessories</a>
                 </li>
@@ -206,7 +205,7 @@
             <label for="hd-2" class="hide-sidebar">
                 <p>BRAND</p><i class="fas fa-caret-down"></i>
             </label>
-            <div class="box-sidebar">
+            <div class="sidebar__box">
                 <li class="sidebar-li">
                     <a href="#" class="sidebar-link">Accessories</a>
                 </li>
@@ -252,7 +251,7 @@
             <label for="hd-3" class="hide-sidebar">
                 <p>DESIGNER</p><i class="fas fa-caret-down"></i>
             </label>
-            <div class="box-sidebar">
+            <div class="sidebar__box">
                 <li class="sidebar-li">
                     <a href="#" class="sidebar-link">Accessories</a>
                 </li>
@@ -295,21 +294,21 @@
             </div>
         </div>
         <section class="catalog-box">
-            <div class="top-filter">
+            <div class="filter_top">
                 <div class="filter">
                     <h3 class="filter-h">Trending now</h3>
                     <div class="trending-flex">
                         <a class="trending-linc" href="#">Bohemian</a>
-                        <p class="tranding-text">|</p>
+                        <p class="trending-text">|</p>
                         <a class="trending-linc" href="#">Floral</a>
-                        <p class="tranding-text">|</p>
+                        <p class="trending-text">|</p>
                         <a class="trending-linc" href="#">Lace</a>
                     </div>
                     <div class="trending-flex">
                         <a class="trending-linc" href="#">Floral</a>
-                        <p class="tranding-text">|</p>
+                        <p class="trending-text">|</p>
                         <a class="trending-linc" href="#">Lace</a>
-                        <p class="tranding-text">|</p>
+                        <p class="trending-text">|</p>
                         <a class="trending-linc" href="#">Bohemian</a>
                     </div>
                 </div>
@@ -372,20 +371,6 @@
                             <option value="09">09</option>
                         </select>
                     </div>
-
-                    <!--<fieldset class="fieldset-sort">
-                       <div class="sort-name">
-                        <label for="sort" >Sort By</label></div>
-                        <input id="sort" list="dl_sort" class="sort-select">
-                    </fieldset>
-                    <datalist id="dl_sort" >
-                        <option label="name" value="Name"></option>
-                        <option label="prise" value="Price"></option>
-                        <option label="new" value="New"></option>
-                
-                    </datalist>-->
-
-
                 </div>
             </div>
             <div class="products_block">
@@ -496,7 +481,7 @@
             </ul>
 
         </div>
-        <div class="botton_white">View All</div>
+        <div class="button_white">View All</div>
     </div>
     <div class="services">
         <div class="container services-flex">
@@ -569,10 +554,11 @@
             </div>
         </div>
     </div>
+  
     <footer class="under">
         <div class="container under-flex">
             <div class="under-left">
-                <a class="logo " href="#"><img src="img/logo.png" alt="logo">
+                <a class="logo " href="#"><img  class="logo_img" src="img/logo.png" alt="logo">
                     <p class="brand_text">BRAN<span class="d_pink">D</span></p>
                 </a>
                 <div class="under-text-box">
@@ -586,7 +572,7 @@
                 <nav class="under-nav-box">
                     <h2 class="under-nav-h2 pink">COMPANY</h2>
                     <ul class="under-menu">
-                        <li class="under-menu--list"><a href="index.html" class="under-menu--link">Home</a></li>
+                        <li class="under-menu--list"><a href="#" class="under-menu--link">Home</a></li>
                         <li class="under-menu--list"><a href="#" class="under-menu--link">Shop</a></li>
                         <li class="under-menu--list"><a href="#" class="under-menu--link">About</a></li>
                         <li class="under-menu--list"><a href="#" class="under-menu--link">How It Works</a></li>
@@ -616,6 +602,7 @@
             </div>
         </div>
     </footer>
+    
     <footer class="underground">
         <div class="container underground-flex">
             <div class="underground-left">
