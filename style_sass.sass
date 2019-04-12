@@ -13,6 +13,8 @@ $width_site: 1140px
     list-style-type: none
     outline: none
 
+fieldset
+    border: none
 .container 
     margin: 0 auto
     width: $width_site
@@ -623,6 +625,180 @@ body
         display: flex
         justify-content: space-between
         margin-bottom: 18px
+
+.single 
+    &_container_under
+        width: 537px
+        margin: 0 auto
+        width: $width_site
+    &_box
+        width: 642px 
+    &_h3
+        color: #4d4d4d
+        font-size: 24px
+        font-weight: 700
+        text-transform: uppercase
+        padding-bottom: 72px
+        text-align: center;
+        padding-top: 49px
+    &_products
+        display: flex
+        justify-content: space-between
+        width: 100%
+        padding-bottom: 33px
+
+    &_img
+        height: 777px
+        border: 1px solid #eaeaea
+        background-color: #f7f7f7
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__go
+            background-color: #dfdfdf
+            height: 47px
+            width: 47px
+            color: $color_white
+            display: flex
+            font-size: 22px
+            font-weight: 400
+            cursor: pointer
+            justify-content: center
+            align-items: center
+            transition:  $time_transition
+            &:hover
+                color: $color_pink
+        &_price
+            color: #ef5b70
+            font-size: 24px
+            font-weight: 700   
+            width: 100%
+            text-align: center
+            border-bottom: 1px solid #eaeaea  
+            padding-bottom: 43px
+            padding-top: 37px
+    &_information
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 642px 
+        padding-top: 73px
+        &_form
+            display: flex
+            flex-flow: row wrap
+            justify-content: space-between
+            align-items: center
+            width: 538px
+            padding-top: 63px
+            &_fieldset 
+                display: flex
+                flex-direction: column
+                width: 30%
+
+        &_form_label
+            color: #2f2f2f
+            font-size: 14px
+            font-weight: 700
+            line-height: 24px
+        &_form_box
+            background-color: $color_white
+            height: 35px
+            border: 1px solid #eaeaea
+            margin-top: 14px
+            display: flex
+            justify-content: center
+            align-items: center
+             
+
+        &_form_select 
+            color: #bcbcbc
+            font-size: 13px
+            font-weight: 400
+            width: 144px
+            padding-right: 5px 
+            background-color: $color_white
+            border: none
+            background-color: #ffffff
+            min-width: 60px
+            width: 90%
+            margin: 10px
+        &_form_input 
+            color: #bcbcbc
+            font-size: 13px
+            font-weight: 400
+            width: 144px
+            padding-right: 5px 
+            background-color: $color_white
+            border: none
+            background-color: #ffffff
+            min-width: 60px
+            width: 85%
+            margin: 10px
+
+        &_button
+            border: 1px solid $color_pink
+            background-color: $color_white
+            color: $color_pink
+            font-size: 16px
+            font-weight: 700
+            width: 100%
+            line-height: 55px
+            text-align: center
+            margin-bottom: 122px
+            margin-top: 30px
+            transition:  $time_transition
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            &:hover
+                border: 1px solid #ef5b70
+                background-color: $color_pink
+                color: $color_white 
+            &:hover .single_information_button_cart
+                filter: brightness(10)  
+            &_cart
+                padding-right: 10px 
+        &_h3
+            color: #4d4d4d
+            font-size: 18px
+            font-weight: 700
+            text-transform: uppercase
+            padding-top: 34px
+            padding-bottom: 67px
+        &__text
+            text-align: center
+            color: #5e5e5e
+            font-size: 14px
+            font-weight: 300
+            padding-bottom: 28px
+            &_box
+                display: flex
+                justify-content: space-between
+                width: 55%
+        &_box_under
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__text_big
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            color: $color_black
+            &_gray
+                color: #b9b9b9
+
+    &_flex
+        display: flex
+        flex-direction: column
+        align-items: center
+        border: 1px solid #eaeaea
+        background-color: #ffffff
+        position: relative
+        top: -75px
+
+      
 
 .subscribe 
     height: 100%
