@@ -13,6 +13,14 @@ $width_site: 1140px
     list-style-type: none
     outline: none
 
+html, body 
+    height: 100%
+.wrapper 
+    min-height: 100%
+    display: flex
+    flex-direction: column
+.top 
+    flex-grow: 1
 fieldset
     border: none
 .container 
@@ -392,7 +400,6 @@ body
         letter-spacing: 0.4px
         line-height: 28px
 
-
     &-name-pink 
         color: $color_pink
         font-size: 16px
@@ -400,13 +407,11 @@ body
         letter-spacing: 0.4px
         margin-top: 19px
 
-
     &-name 
         color: $color_black
         font-size: 12px
         font-weight: 300
         letter-spacing: 0.3px
-
 
     &-name-up 
         color: $color_black
@@ -414,8 +419,6 @@ body
         font-size: 24px
         letter-spacing: 0.6px
         text-transform: uppercase
-
-
 
     &-name-d 
         color: $color_black
@@ -427,7 +430,6 @@ body
     &-box 
         display: flex
         margin-top: 35px
-
 
     &-name-text 
         width: 386px
@@ -667,7 +669,8 @@ body
             align-items: center
             transition:  $time_transition
             &:hover
-                color: $color_pink
+                color: #dfdfdf
+                background-color: $color_white
         &_price
             color: #ef5b70
             font-size: 24px
@@ -828,7 +831,6 @@ body
 
 .under 
     padding-top: 109px
-    height: 349px
 
 
     &-nav-h2 
@@ -867,12 +869,11 @@ body
     &-text-box 
         display: flex
         flex-wrap: wrap
-        height: 180px
         line-height: 24px
     &_right 
         display: flex
         justify-content: space-between
-        height: 260px
+        
         width: 608px
         padding-right: 42px
         padding-left: 64px
@@ -880,7 +881,7 @@ body
         display: flex
     &-left 
         display: flex
-        height: 260px
+        
         width: 428px
         flex-wrap: wrap
     &_catalog 
@@ -894,6 +895,7 @@ body
 .underground 
     background-color: #e6e6e6
     height: 79px
+    margin-top: 60px
     &-flex 
         display: flex
         justify-content: space-between
@@ -1532,11 +1534,45 @@ body
         cursor: pointer
 
     &__radio 
-        color: $color_black
-        font-size: 12px
-        font-weight: 400
-        text-transform: uppercase
-        padding-top: 13px
+        position: absolute
+        z-index: -1
+        opacity: 0
+        margin: 10px 0 0 20px 
+        &+label
+            position: relative
+            padding: 0 0 0 60px
+            cursor: pointer  
+            color: $color_black
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            padding-top: 3px
+            cursor: pointer 
+            &:after
+                content: ""
+                position: absolute
+                -webkit-transition: all 0.2s ease
+                -moz-transition: all 0.2s ease
+                -o-transition: all 0.2s ease
+                transition: all 0.2s ease
+            &:before
+                content: ""
+                position: absolute
+                left: 0px
+                top: 0px
+                width: 18px
+                height: 18px
+                border: 1px solid #dddddd
+                background-color: #ffffff
+                border-radius: 100%
+        &:checked+label:after 
+            left: 5px
+            top: 5px
+            width: 10px
+            height: 10px
+            border-radius: 100%
+            background-color: $color_text_gray
+            
 
     &__text 
         color: #b3b2b2
@@ -1590,6 +1626,8 @@ body
 
     &__radio__box 
         padding-bottom: 33px
+        display: flex
+        flex-direction: column
 
     &__stage 
         padding-top: 25px
@@ -1680,12 +1718,61 @@ body
     font-size: 14px
     font-weight: 400
     text-transform: uppercase
-
+    cursor: pointer
     background-color: $color_white
     padding-right: 9px
     transition:  $time_transition
     &:hover 
         color: $color_pink
+.input-size
+    position: absolute
+    z-index: -1
+    opacity: 0
+    margin: 10px 0 0 20px
+    &+label:before
+        content: ""
+        position: absolute
+        left: 0px
+        top: 0px
+        width: 16px
+        height: 16px
+        border: 1px solid #dddddd
+        background-color: #ffffff
+    &+label 
+        position: relative
+        padding: 0 0 0 25px
+        cursor: pointer
+        &:after 
+            content: ""
+            position: absolute
+            left: 0px
+            top: 0px
+            width: 16px
+            height: 16px
+            border: 1px solid #dddddd
+            background-color: #ffffff
+    &:checked+label:after 
+        left: 3px
+        top: 4px
+        width: 8px
+        height: 4px
+        border-radius: 1px
+        border-left: 4px solid $color_pink
+        border-bottom: 4px solid $color_pink
+        border-right: none
+        border-top: none
+        -webkit-transform: rotate(-45deg)
+        -moz-transform: rotate(-45deg)
+        -o-transform: rotate(-45deg)
+        -ms-transform: rotate(-45deg)
+        transform: rotate(-45deg)
+
+        content: ""
+        position: absolute
+        -webkit-transition: all 0.2s ease
+        -moz-transition: all 0.2s ease
+        -o-transition: all 0.2s ease
+        transition: all 0.2s ease
 
 .headline
     &3_red 
